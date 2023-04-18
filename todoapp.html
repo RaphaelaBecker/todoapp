@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="todoapp.css">
+</head>
+
+<body>
+    <main>
+        <h1 class="head1">Todo's</h1>
+        <section class="radio-buttons">
+            <div class="all">
+                <input type="radio" name="radio" id="all">
+                <label for="radio1">All</label>
+            </div>
+            <div class="open">
+                <input type="radio" name="radio" id="open">
+                <label for="radio2">Open</label>
+            </div>
+            <div class="done">
+                <input type="radio" name="radio" id="done">
+                <label for="radio3">Done</label>
+            </div>
+        </section>
+        <div>
+            <button id="shit-button">Shit</button>
+            <img id="my-image" src="JavaScript_stinkt.png" alt="" hidden>
+        </div>
+        <section class="todos" id="todos">
+            <input type="text" id="new-todo" name="text" placeholder="New Todo">
+            <button id="push">Add Todo</button>
+            <button id="delete">Delete done Todos</button>
+        </section>
+        <ul id="list"></ul>
+        <script src="todoapp.js"></script>
+    </main>
+</body>
+
+</html>
